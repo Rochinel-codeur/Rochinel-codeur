@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+<title id="title">RochDev monogram</title>
+<rect x="1" y="1" width="126" height="126" rx="24" fill="#0B1120" stroke="#2563EB" stroke-width="2"/>
+<path d="M39 96V32H67L87 51V64L68 76H39M66 76L90 99" fill="none" stroke="#22D3EE" stroke-width="7" stroke-linejoin="round"/>
+<circle cx="103" cy="24" r="4" fill="#8B5CF6"/>
+</svg>

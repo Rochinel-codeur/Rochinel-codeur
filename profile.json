@@ -1,0 +1,16 @@
+{
+  "username": "Rochinel-codeur",
+  "brand": "RochDev",
+  "contacts": {
+    "github": "https://github.com/Rochinel-codeur",
+    "email": "lontchirochinel@gmail.com",
+    "linkedin": null,
+    "portfolio": null
+  },
+  "contacts_verified_on": "2026-11-06",
+  "contacts_source": "https://api.github.com/users/Rochinel-codeur",
+  "featured_repositories": [
+    "Facteo",
+    "QuizLy"
+  ]
+}
