@@ -25,13 +25,15 @@ To refresh the snake images locally, manually trigger the workflow. Its pinned P
 
 ## Art direction and scope
 
-V2 uses exactly seven principal sections, with vertically stacked project cards so the images and descriptions remain readable on phones. Project SVGs are original concept illustrations, not screenshots. To rebuild their themed variants and the engineering diagrams after editing their source:
+V3 uses a cover and six named sections. Major desktop SVGs share a 1200-unit grid and every README image fills its container. Project SVGs integrate the product description and illustration; they are original concepts, not screenshots. To rebuild covers, themed project cards and engineering graphics after editing their source:
 
 ```sh
 python3 scripts/build_editorial_assets.py
 ```
 
-That script writes only the ten editorial SVGs; it does not touch contribution data or branding banners. The former `engineering-map.svg` is retained as a V1 asset and is no longer displayed. The approach uses a horizontal diagram on large screens and a dedicated vertical version below 600 px. The stack is a technical domain map, with the README distinguishing working experience from continued learning.
+That script uses `scripts/artwork.py` for shared design tokens and writes covers and editorial SVGs. It does not fetch or change contribution data. Historical `engineering-map.svg` and `logo.svg` remain available. Viewports up to 760 px select dedicated 480-unit mobile compositions. The stack is a technical domain map, with the README distinguishing working experience from continued learning. See [the V3 composition brief](V3_DESIGN.md) for dimensions and design choices.
+
+The statistics generator also uses `scripts/artwork.py`. Each refresh writes four synchronized dashboard SVGs: light/dark desktop and light/dark mobile. Their source data and date are identical. The existing workflow publishes all generated assets without a workflow change.
 
 The palette uses midnight navy, cyan and electric blue, with violet as a small connection detail. The desktop banner and separate 480 px mobile banner share the same geometric monogram. `engineering-map.svg` expresses product relationships rather than skill rankings. Statistics show primary-language **repository counts**, not lines of code, all languages, contribution totals or proficiency. The animated snake is paired with genuinely static calendars for `prefers-reduced-motion`.
 

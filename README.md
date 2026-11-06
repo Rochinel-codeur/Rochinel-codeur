@@ -1,85 +1,71 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/branding/banner-mobile.svg">
-  <img src="assets/branding/banner.svg" alt="RochDev — Engineering Ideas Into Reality. Software Engineering · Backend Architecture · Digital Products." width="100%">
+  <source media="(max-width: 760px)" srcset="assets/branding/banner-mobile.svg">
+  <img src="assets/branding/banner.svg" alt="RochDev — Engineering Ideas Into Reality. Software Engineer • Backend Developer • Builder." width="100%">
 </picture>
-
-# Hi, I'm RochDev.
-
-**Software Engineer • Backend Developer • Builder**<br>
-Rochinel Lontchi · Based in Cameroon 🇨🇲
-
-Building reliable systems and meaningful digital products.
 
 ## About Me
 
-I build software around real business needs, with a focus on backend engineering and experience across web and mobile.
-I care about clear APIs, reliable business rules and systems that stay understandable as they grow.
-I'm developing my architecture and infrastructure practice, with an entrepreneurial interest in useful digital products.
+I'm **Rochinel Lontchi**, a software developer based in Cameroon.
+I build business applications that turn operational needs into useful products.
+My work spans backend systems, web interfaces and mobile experiences.
+I'm growing toward software architecture and infrastructure, with an entrepreneurial interest in products that serve real businesses.
 
 ## Featured Projects
 
 <a href="https://github.com/Rochinel-codeur/Facteo">
   <picture>
+    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="assets/projects/facteo-mobile-dark.svg">
+    <source media="(max-width: 760px)" srcset="assets/projects/facteo-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="assets/projects/facteo-dark.svg">
-    <img src="assets/projects/facteo-light.svg" alt="Facteo concept illustration: invoices, customer records and a financial dashboard. Not a product screenshot." width="680">
+    <img src="assets/projects/facteo-light.svg" alt="Facteo — business invoicing for clients, suppliers and documents. Django / DRF, React, TypeScript and Tailwind CSS. Concept illustration, not a screenshot." width="100%">
   </picture>
 </a>
 
-### Facteo / Business invoicing
-
-Manage sales and purchase invoices, customers and suppliers in one place.<br>
-Server-calculated totals, yearly numbering and document exports support the billing workflow.
-
-`Django / DRF` `React` `TypeScript` `Tailwind CSS`
-
-[View repository →](https://github.com/Rochinel-codeur/Facteo) · [Architecture](https://github.com/Rochinel-codeur/Facteo/blob/main/docs/ARCHITECTURE.md)
+**[Facteo →](https://github.com/Rochinel-codeur/Facteo)** — Business invoicing with server-calculated totals, yearly numbering and document exports. [Architecture notes](https://github.com/Rochinel-codeur/Facteo/blob/main/docs/ARCHITECTURE.md).
 
 <a href="https://github.com/Rochinel-codeur/QuizLy">
   <picture>
+    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="assets/projects/quizly-mobile-dark.svg">
+    <source media="(max-width: 760px)" srcset="assets/projects/quizly-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="assets/projects/quizly-dark.svg">
-    <img src="assets/projects/quizly-light.svg" alt="QuizLy concept illustration: connected question generation, evaluation and explanation steps. Not a product screenshot." width="680">
+    <img src="assets/projects/quizly-light.svg" alt="QuizLy — experimental science learning through question generation, evaluation and explanation. Python, FastAPI, LangGraph and LangChain. Concept illustration, not a screenshot." width="100%">
   </picture>
 </a>
 
-### QuizLy / AI learning experiment
-
-Generate science questions and receive explanations through a graph-based learning workflow.<br>
-An experimental project connecting AI integration with a practical quiz interface.
-
-`Python` `FastAPI` `LangGraph` `LangChain`
-
-[View repository →](https://github.com/Rochinel-codeur/QuizLy)
+**[QuizLy →](https://github.com/Rochinel-codeur/QuizLy)** — An experimental science quiz connecting AI-generated questions with evaluation and explanations.
 
 <sub>Concept illustrations of public projects. Live deployments and production readiness remain unverified.</sub>
 
 ## Engineering Stack
 
 <picture>
+  <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="assets/branding/stack-mobile-dark.svg">
+  <source media="(max-width: 760px)" srcset="assets/branding/stack-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/branding/stack-dark.svg">
-  <img src="assets/branding/stack-light.svg" alt="Technical domains: interfaces with React, React Native and Expo; Django, DRF and REST APIs; services and Celery background tasks; PostgreSQL, MySQL and Redis; Linux, Docker, Nginx and CI/CD. A domain map, not a project architecture or proficiency ranking." width="440">
+  <img src="assets/branding/stack-light.svg" alt="Technical domains, not a single project architecture or equal proficiency: interfaces with React, React Native, Expo and TypeScript; backend with Python, Django, Django REST Framework and Celery; data and delivery with PostgreSQL, MySQL, Redis, Linux, Docker and CI/CD. Additional tools include JavaScript, Vite, Tailwind CSS, Git, Ubuntu and Nginx." width="100%">
 </picture>
 
-Working toolkit: Python, JavaScript / TypeScript, Vite, Tailwind CSS and Git.<br>
-My backend practice is strongest; infrastructure and architecture remain active learning areas.<br>
-**Developing further:** system design, UML, Docker & CI/CD, cloud infrastructure, distributed systems and AI integration.
+Backend is my main practice; I'm deepening software architecture, UML, Docker & CI/CD, cloud infrastructure, distributed systems and AI integration.
 
 ## Engineering Approach
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/branding/approach-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="assets/branding/approach-mobile-light.svg">
+  <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="assets/branding/approach-mobile-dark.svg">
+  <source media="(max-width: 760px)" srcset="assets/branding/approach-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/branding/approach-dark.svg">
-  <img src="assets/branding/approach-light.svg" alt="Problem → Analysis → Architecture → Implementation → Testing → Deployment." width="100%">
+  <img src="assets/branding/approach-light.svg" alt="01 Discover: find the need. 02 Analyze: map constraints. 03 Architect: set boundaries. 04 Build: implement. 05 Validate: test behavior. 06 Deliver: release safely." width="100%">
 </picture>
-
-Understand the problem, make deliberate design choices, and verify the solution before delivery.
 
 ## GitHub Activity
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/generated/activity-dark.svg">
-  <img src="assets/generated/activity-light.svg" alt="Dated counts of original public repositories and their primary languages; forks excluded. Full definitions and counts are linked below." width="440">
-</picture>
+<a href="assets/generated/activity.md">
+  <picture>
+    <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="assets/generated/activity-mobile-dark.svg">
+    <source media="(max-width: 760px)" srcset="assets/generated/activity-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/generated/activity-dark.svg">
+    <img src="assets/generated/activity-light.svg" alt="Dated dashboard of original public repository counts and primary languages. Forks excluded. Language bars count repositories, not proficiency. Open for the text snapshot and definitions." width="100%">
+  </picture>
+</a>
 
 [Snapshot & definitions](assets/generated/activity.md) · [All repositories](https://github.com/Rochinel-codeur?tab=repositories)
 
@@ -94,6 +80,7 @@ Understand the problem, make deliberate design choices, and verify the solution 
 
 ## Connect
 
-Have a business tool, API or digital product in mind? Let's discuss the problem.
+**Have an idea worth building?**<br>
+Let's talk about the problem and build something useful.
 
 [Email](mailto:lontchirochinel@gmail.com) · [GitHub](https://github.com/Rochinel-codeur)

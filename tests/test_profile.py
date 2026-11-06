@@ -1,4 +1,9 @@
 import unittest
+import json
+import tempfile
+from pathlib import Path
+from unittest.mock import patch
+from scripts import generate_activity as generator
 import xml.etree.ElementTree as ET
 from scripts.generate_activity import public_repositories, summarize, render_svg
 from scripts.prepare_snake import prepare, NS
@@ -12,6 +17,25 @@ def repository(identifier, **changes):
 
 
 class PublicSnapshotTests(unittest.TestCase):
+    def test_refresh_writes_matching_desktop_and_mobile_snapshots(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            output = root / "assets/generated"
+            (root / "profile.json").write_text('{"username":"Rochinel-codeur"}')
+            with patch.object(generator, "ROOT", root), patch.object(generator, "OUTPUT", output), patch.object(
+                generator, "public_repositories", return_value=[{"name": "sample", "language": "Python"}]
+            ):
+                generator.main()
+            snapshot = json.loads((output / "activity.json").read_text())
+            self.assertEqual(snapshot["repositories"], 1)
+            for theme in ("light", "dark"):
+                for mobile in (False, True):
+                    source = (output / f'activity-{"mobile-" if mobile else ""}{theme}.svg').read_text()
+                    svg = ET.fromstring(source)
+                    self.assertEqual(svg.get("width"), "480" if mobile else "1200")
+                    self.assertIn(snapshot["updated"], source)
+                    self.assertIn("Python", source)
+
     def test_only_public_owned_original_repositories_are_counted(self):
         data = [repository(1), repository(2, private=True), repository(3, fork=True),
                 repository(4, owner={"login": "someone-else"})]

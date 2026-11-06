@@ -20,6 +20,7 @@ class Images(HTMLParser):
         attrs = dict(attrs)
         if tag == "img":
             assert attrs.get("alt"), "Every README image needs meaningful alt text"
+            assert attrs.get("width") == "100%", "Major README images must fill the content width"
             self.paths.append(attrs["src"])
         elif tag == "source":
             self.paths.append(attrs["srcset"])
@@ -28,10 +29,10 @@ class Images(HTMLParser):
 def validate():
     readme = (ROOT / "README.md").read_text()
     sections = re.findall(r"^#{1,2} (.+)$", readme, re.MULTILINE)
-    assert len(sections) == 7 and sections[1:] == [
+    assert sections == [
         "About Me", "Featured Projects", "Engineering Stack",
         "Engineering Approach", "GitHub Activity", "Connect",
-    ], "The profile must keep its seven-section editorial structure"
+    ], "The profile must keep its cover and six editorial sections"
     images = Images()
     images.feed(readme)
     assert len(images.paths) >= 8, "Expected themed and reduced-motion image sources"

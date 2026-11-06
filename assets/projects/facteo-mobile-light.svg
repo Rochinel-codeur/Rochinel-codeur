@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="420" viewBox="0 0 480 420" role="img" aria-labelledby="title desc">
+<title id="title">Facteo / Business invoicing</title><desc id="desc">Original conceptual product illustration, not a screenshot. No real financial figures are depicted.</desc>
+<rect x="1" y="1" width="478" height="418" rx="24" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="28" y="40" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#475569">01 / BUSINESS SOFTWARE</text>
+<text x="28" y="92" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#0B1120">Facteo</text>
+<text x="28" y="138" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#0B1120">Invoices, clients and documents.</text>
+<text x="28" y="172" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#0B1120">One business workflow.</text>
+<text x="28" y="212" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#475569">Django / DRF • React • TypeScript</text>
+<g transform="translate(28 240)">
+<rect x="0" y="0" width="252" height="106" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<path d="M16 23H168M16 47H122M16 71H148" fill="none" stroke="#475569" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M185 86V58H201V32H220V18" fill="none" stroke="#1D4ED8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="276" y="0" width="144" height="106" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<g transform="translate(294 20) scale(0.7)">
+<path d="M0 6C0 -2 38 -2 38 6V30C38 38 0 38 0 30ZM0 6C0 14 38 14 38 6M0 18C0 26 38 26 38 18" fill="none" stroke="#1D4ED8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path d="M294 78H396" fill="none" stroke="#475569" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="28" y="389" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1D4ED8">View public repository →</text>
+</svg>

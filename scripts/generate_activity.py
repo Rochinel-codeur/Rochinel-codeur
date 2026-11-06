@@ -6,10 +6,14 @@ import re
 import time
 from collections import Counter
 from datetime import datetime, timezone
-from html import escape
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
+
+try:
+    from .artwork import activity
+except ImportError:
+    from artwork import activity
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "assets/generated"
@@ -68,41 +72,8 @@ def summarize(repositories, updated):
     }
 
 
-def render_svg(snapshot, dark):
-    background, foreground, muted, border, track, accent = (
-        ("#0B1120", "#F8FAFC", "#B8C5D6", "#26354B", "#1E293B", "#22D3EE")
-        if dark else
-        ("#F8FAFC", "#0B1120", "#475569", "#CBD5E1", "#E2E8F0", "#2563EB")
-    )
-    rows = snapshot["language_counts"]
-    height = 230 + max(1, len(rows)) * 28
-    title = f'{snapshot["repositories"]} original public repositories; {snapshot["primary_languages"]} primary languages'
-    result = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="440" height="{height}" viewBox="0 0 440 {height}" role="img" aria-labelledby="title desc">',
-        f'<title id="title">{escape(title)}</title>',
-        f'<desc id="desc">Updated {snapshot["updated"]}. Counts of repositories by primary language, not skill levels or code volume. Forks excluded.</desc>',
-        f'<rect x="0.5" y="0.5" width="439" height="{height-1}" rx="12" fill="{background}" stroke="{border}"/>',
-        f'<g font-family="Arial, Helvetica, sans-serif" fill="{foreground}">',
-        f'<text x="24" y="36" font-size="20" font-weight="700">PUBLIC CODE / AT A GLANCE</text>',
-        f'<text x="24" y="95" font-size="40" font-weight="700">{snapshot["repositories"]}</text>',
-        f'<text x="234" y="95" font-size="40" font-weight="700">{snapshot["primary_languages"]}</text>',
-        f'<g fill="{muted}" font-size="20"><text x="24" y="123">Original public repos</text><text x="234" y="123">Primary languages</text></g>',
-        f'<path d="M24 145H416" stroke="{border}"/>',
-        f'<text x="24" y="177" font-size="20">Repositories by primary language</text>',
-    ]
-    maximum = max(rows.values(), default=1)
-    for index, (language, count) in enumerate(rows.items()):
-        y = 206 + index * 28
-        result.extend([
-            f'<text x="24" y="{y}" font-size="20">{escape(language)}</text>',
-            f'<rect x="190" y="{y-13}" width="178" height="10" rx="5" fill="{track}"/>',
-            f'<rect x="190" y="{y-13}" width="{178*count/maximum:.2f}" height="10" rx="5" fill="{accent}"/>',
-            f'<text x="412" y="{y}" font-size="20" text-anchor="end">{count}</text>',
-        ])
-    if not rows:
-        result.append(f'<text x="24" y="210" fill="{muted}" font-size="20">No public repositories yet.</text>')
-    result.append(f'<text x="24" y="{height-22}" fill="{muted}" font-size="18">{snapshot["updated"]} UTC · Forks excluded</text></g></svg>')
-    return "\n".join(result) + "\n"
+def render_svg(snapshot, dark, mobile=False):
+    return activity(snapshot, dark, mobile)
 
 
 def main():
@@ -110,8 +81,10 @@ def main():
     repos = public_repositories(config["username"])
     snapshot = summarize(repos, datetime.now(timezone.utc).date().isoformat())
     # Fetching and rendering finish before any existing snapshot is replaced.
-    files = {f"activity-{theme}.svg": render_svg(snapshot, theme == "dark")
-             for theme in ("light", "dark")}
+    files = {
+        f"activity-{'mobile-' if mobile else ''}{theme}.svg": render_svg(snapshot, theme == "dark", mobile)
+        for theme in ("light", "dark") for mobile in (False, True)
+    }
     files["activity.json"] = json.dumps(snapshot, indent=2) + "\n"
     lines = [
         "# Public repository snapshot", "",

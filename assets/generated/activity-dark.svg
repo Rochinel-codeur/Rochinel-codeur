@@ -1,36 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="440" height="398" viewBox="0 0 440 398" role="img" aria-labelledby="title desc">
-<title id="title">12 original public repositories; 5 primary languages</title>
-<desc id="desc">Updated 2026-11-06. Counts of repositories by primary language, not skill levels or code volume. Forks excluded.</desc>
-<rect x="0.5" y="0.5" width="439" height="397" rx="12" fill="#0B1120" stroke="#26354B"/>
-<g font-family="Arial, Helvetica, sans-serif" fill="#F8FAFC">
-<text x="24" y="36" font-size="20" font-weight="700">PUBLIC CODE / AT A GLANCE</text>
-<text x="24" y="95" font-size="40" font-weight="700">12</text>
-<text x="234" y="95" font-size="40" font-weight="700">5</text>
-<g fill="#B8C5D6" font-size="20"><text x="24" y="123">Original public repos</text><text x="234" y="123">Primary languages</text></g>
-<path d="M24 145H416" stroke="#26354B"/>
-<text x="24" y="177" font-size="20">Repositories by primary language</text>
-<text x="24" y="206" font-size="20">Not classified</text>
-<rect x="190" y="193" width="178" height="10" rx="5" fill="#1E293B"/>
-<rect x="190" y="193" width="178.00" height="10" rx="5" fill="#22D3EE"/>
-<text x="412" y="206" font-size="20" text-anchor="end">4</text>
-<text x="24" y="234" font-size="20">Python</text>
-<rect x="190" y="221" width="178" height="10" rx="5" fill="#1E293B"/>
-<rect x="190" y="221" width="178.00" height="10" rx="5" fill="#22D3EE"/>
-<text x="412" y="234" font-size="20" text-anchor="end">4</text>
-<text x="24" y="262" font-size="20">HTML</text>
-<rect x="190" y="249" width="178" height="10" rx="5" fill="#1E293B"/>
-<rect x="190" y="249" width="44.50" height="10" rx="5" fill="#22D3EE"/>
-<text x="412" y="262" font-size="20" text-anchor="end">1</text>
-<text x="24" y="290" font-size="20">Java</text>
-<rect x="190" y="277" width="178" height="10" rx="5" fill="#1E293B"/>
-<rect x="190" y="277" width="44.50" height="10" rx="5" fill="#22D3EE"/>
-<text x="412" y="290" font-size="20" text-anchor="end">1</text>
-<text x="24" y="318" font-size="20">JavaScript</text>
-<rect x="190" y="305" width="178" height="10" rx="5" fill="#1E293B"/>
-<rect x="190" y="305" width="44.50" height="10" rx="5" fill="#22D3EE"/>
-<text x="412" y="318" font-size="20" text-anchor="end">1</text>
-<text x="24" y="346" font-size="20">PHP</text>
-<rect x="190" y="333" width="178" height="10" rx="5" fill="#1E293B"/>
-<rect x="190" y="333" width="44.50" height="10" rx="5" fill="#22D3EE"/>
-<text x="412" y="346" font-size="20" text-anchor="end">1</text>
-<text x="24" y="376" fill="#B8C5D6" font-size="18">2026-11-06 UTC · Forks excluded</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+<title id="title">Public GitHub / Repository snapshot</title><desc id="desc">Updated 2026-11-06 UTC. 12 original public repositories, forks excluded; 5 primary languages. Counts by one primary language per repository, not proficiency or code volume.</desc>
+<rect x="1" y="1" width="1198" height="338" rx="24" fill="#0B1120" stroke="#263A56" stroke-width="2"/>
+<text x="56" y="51" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#94A3B8">PUBLIC GITHUB / SNAPSHOT</text>
+<text x="56" y="131" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" fill="#F8FAFC">12</text>
+<text x="288" y="131" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" fill="#F8FAFC">5</text>
+<text x="56" y="173" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#94A3B8">Original public</text>
+<text x="56" y="207" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#94A3B8">repositories</text>
+<text x="288" y="173" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#94A3B8">Primary</text>
+<text x="288" y="207" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#94A3B8">languages</text>
+<path d="M521 48V280" fill="none" stroke="#263A56" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="565" y="51" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#94A3B8">REPOSITORIES BY PRIMARY LANGUAGE</text>
+<text x="565" y="95" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#F8FAFC">Python</text>
+<rect x="778" y="79" width="310" height="12" rx="6" fill="#16243A" stroke="#16243A" stroke-width="2"/>
+<rect x="778" y="79" width="310.0" height="12" rx="6" fill="#22D3EE" stroke="#22D3EE" stroke-width="2"/>
+<text x="1113" y="95" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#F8FAFC">4</text>
+<text x="565" y="129" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#F8FAFC">HTML</text>
+<rect x="778" y="113" width="310" height="12" rx="6" fill="#16243A" stroke="#16243A" stroke-width="2"/>
+<rect x="778" y="113" width="77.5" height="12" rx="6" fill="#22D3EE" stroke="#22D3EE" stroke-width="2"/>
+<text x="1113" y="129" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#F8FAFC">1</text>
+<text x="565" y="163" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#F8FAFC">Java</text>
+<rect x="778" y="147" width="310" height="12" rx="6" fill="#16243A" stroke="#16243A" stroke-width="2"/>
+<rect x="778" y="147" width="77.5" height="12" rx="6" fill="#22D3EE" stroke="#22D3EE" stroke-width="2"/>
+<text x="1113" y="163" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#F8FAFC">1</text>
+<text x="565" y="197" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#F8FAFC">JavaScript</text>
+<rect x="778" y="181" width="310" height="12" rx="6" fill="#16243A" stroke="#16243A" stroke-width="2"/>
+<rect x="778" y="181" width="77.5" height="12" rx="6" fill="#22D3EE" stroke="#22D3EE" stroke-width="2"/>
+<text x="1113" y="197" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#F8FAFC">1</text>
+<text x="565" y="231" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#F8FAFC">PHP</text>
+<rect x="778" y="215" width="310" height="12" rx="6" fill="#16243A" stroke="#16243A" stroke-width="2"/>
+<rect x="778" y="215" width="77.5" height="12" rx="6" fill="#22D3EE" stroke="#22D3EE" stroke-width="2"/>
+<text x="1113" y="231" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#F8FAFC">1</text>
+<text x="565" y="265" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#F8FAFC">Not classified</text>
+<rect x="778" y="249" width="310" height="12" rx="6" fill="#16243A" stroke="#16243A" stroke-width="2"/>
+<rect x="778" y="249" width="310.0" height="12" rx="6" fill="#22D3EE" stroke="#22D3EE" stroke-width="2"/>
+<text x="1113" y="265" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#F8FAFC">4</text>
+<text x="56" y="314" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#94A3B8">Updated 2026-11-06 UTC • Forks excluded</text>
+<text x="778" y="314" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#22D3EE">Details linked below ↘</text>
+</svg>

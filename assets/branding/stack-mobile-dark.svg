@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="510" viewBox="0 0 480 510" role="img" aria-labelledby="title desc">
+<title id="title">Engineering stack / Technical domains</title><desc id="desc">Product interfaces: React, React Native, Expo, TypeScript. Backend engineering: Python, Django, Django REST Framework and Celery. Data and delivery: PostgreSQL, MySQL, Redis, Linux, Docker and CI/CD. Technical domains, not a single project architecture or equal proficiency.</desc>
+<rect x="1" y="1" width="478" height="508" rx="24" fill="#0B1120" stroke="#263A56" stroke-width="2"/>
+<text x="28" y="42" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#94A3B8">ENGINEERING / TECHNICAL DOMAINS</text>
+<rect x="28" y="66" width="424" height="120" rx="16" fill="#101C31" stroke="#263A56" stroke-width="2"/>
+<g transform="translate(45 87) scale(0.65)">
+<path d="M0 0H38V26H0ZM10 35H28M19 26V35" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="86" y="104" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#F8FAFC">Product interfaces</text>
+<text x="45" y="141" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#94A3B8">React • React Native</text>
+<text x="45" y="170" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#94A3B8">Expo • TypeScript</text>
+<path d="M240 187V205" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="28" y="206" width="424" height="120" rx="16" fill="#101C31" stroke="#22D3EE" stroke-width="2"/>
+<g transform="translate(45 227) scale(0.65)">
+<path d="M10 3L0 18L10 33M28 3L38 18L28 33M23 0L15 36" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="86" y="244" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#F8FAFC">Backend engineering</text>
+<text x="45" y="281" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#94A3B8">Python • Django • DRF</text>
+<text x="45" y="310" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#94A3B8">Celery • REST APIs</text>
+<path d="M240 327V345" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="28" y="346" width="424" height="120" rx="16" fill="#101C31" stroke="#263A56" stroke-width="2"/>
+<g transform="translate(45 367) scale(0.65)">
+<path d="M0 6C0 -2 38 -2 38 6V30C38 38 0 38 0 30ZM0 6C0 14 38 14 38 6M0 18C0 26 38 26 38 18" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="86" y="384" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" fill="#F8FAFC">Data &amp; delivery</text>
+<text x="45" y="421" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#94A3B8">PostgreSQL • MySQL • Redis</text>
+<text x="45" y="450" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#94A3B8">Linux • Docker • CI/CD</text>
+</svg>

@@ -1,28 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="440" height="378" viewBox="0 0 440 378" role="img" aria-labelledby="title desc">
-<title id="title">Engineering approach</title><desc id="desc">Problem → Analysis → Architecture → Implementation → Testing → Deployment.</desc>
-<rect x="1" y="1" width="438" height="376" rx="16" fill="#0B1120" stroke="#263B55" stroke-width="1.5"/>
-<text x="24" y="36" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#B8C5D6">UNDERSTAND / DESIGN / DELIVER</text>
-<rect x="24" y="56" width="392" height="42" rx="10" fill="#101D32" stroke="#263B55" stroke-width="1.5"/>
-<text x="38" y="84" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#22D3EE">01</text>
-<text x="88" y="84" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#F8FAFC">Problem</text>
-<path d="M220 99V106" fill="none" stroke="#22D3EE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="24" y="107" width="392" height="42" rx="10" fill="#101D32" stroke="#263B55" stroke-width="1.5"/>
-<text x="38" y="135" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#22D3EE">02</text>
-<text x="88" y="135" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#F8FAFC">Analysis</text>
-<path d="M220 150V157" fill="none" stroke="#22D3EE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="24" y="158" width="392" height="42" rx="10" fill="#101D32" stroke="#263B55" stroke-width="1.5"/>
-<text x="38" y="186" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#22D3EE">03</text>
-<text x="88" y="186" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#F8FAFC">Architecture</text>
-<path d="M220 201V208" fill="none" stroke="#22D3EE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="24" y="209" width="392" height="42" rx="10" fill="#101D32" stroke="#263B55" stroke-width="1.5"/>
-<text x="38" y="237" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#22D3EE">04</text>
-<text x="88" y="237" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#F8FAFC">Implementation</text>
-<path d="M220 252V259" fill="none" stroke="#22D3EE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="24" y="260" width="392" height="42" rx="10" fill="#101D32" stroke="#263B55" stroke-width="1.5"/>
-<text x="38" y="288" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#22D3EE">05</text>
-<text x="88" y="288" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#F8FAFC">Testing</text>
-<path d="M220 303V310" fill="none" stroke="#22D3EE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="24" y="311" width="392" height="42" rx="10" fill="#101D32" stroke="#263B55" stroke-width="1.5"/>
-<text x="38" y="339" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#22D3EE">06</text>
-<text x="88" y="339" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#F8FAFC">Deployment</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360" role="img" aria-labelledby="title desc">
+<title id="title">Discover → Analyze → Architect → Build → Validate → Deliver</title><desc id="desc">Understand the need, map constraints, define boundaries, implement, test behavior and release with care.</desc>
+<rect x="1" y="1" width="478" height="358" rx="24" fill="#0B1120" stroke="#0B1120" stroke-width="2"/>
+<text x="28" y="49" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#22D3EE">01</text>
+<g transform="translate(175 27) scale(0.65)">
+<path d="M5 5A11 11 0 1 1 4 6M24 24L34 34" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="28" y="88" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#F8FAFC">Discover</text>
+<text x="28" y="114" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#94A3B8">Find the need</text>
+<text x="254" y="49" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#22D3EE">02</text>
+<g transform="translate(401 27) scale(0.65)">
+<path d="M2 32V18H9V32M15 32V8H22V32M28 32V0H35V32" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="254" y="88" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#F8FAFC">Analyze</text>
+<text x="254" y="114" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#94A3B8">Map constraints</text>
+<text x="28" y="161" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#22D3EE">03</text>
+<g transform="translate(175 139) scale(0.65)">
+<path d="M12 0H26V12H12ZM0 26H12V38H0ZM26 26H38V38H26ZM19 12V20H6V26M19 20H32V26" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="28" y="200" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#F8FAFC">Architect</text>
+<text x="28" y="226" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#94A3B8">Set boundaries</text>
+<text x="254" y="161" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#22D3EE">04</text>
+<g transform="translate(401 139) scale(0.65)">
+<path d="M10 3L0 18L10 33M28 3L38 18L28 33M23 0L15 36" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="254" y="200" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#F8FAFC">Build</text>
+<text x="254" y="226" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#94A3B8">Implement</text>
+<text x="28" y="273" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#22D3EE">05</text>
+<g transform="translate(175 251) scale(0.65)">
+<path d="M2 19L14 31L36 4" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="28" y="312" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#F8FAFC">Validate</text>
+<text x="28" y="338" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#94A3B8">Test behavior</text>
+<text x="254" y="273" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#22D3EE">06</text>
+<g transform="translate(401 251) scale(0.65)">
+<path d="M2 35H36M19 27V0M6 13L19 0L32 13" fill="none" stroke="#22D3EE" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="254" y="312" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#F8FAFC">Deliver</text>
+<text x="254" y="338" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#94A3B8">Release safely</text>
+<path d="M240 24V330" fill="none" stroke="#263A56" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

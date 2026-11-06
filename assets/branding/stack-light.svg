@@ -1,39 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="440" height="554" viewBox="0 0 440 554" role="img" aria-labelledby="title desc">
-<title id="title">Engineering stack / Technical domains</title><desc id="desc">Interfaces, APIs, business logic, data and infrastructure. A map of technical interests and practice, not equal proficiency or a specific project&#x27;s architecture.</desc>
-<rect x="1" y="1" width="438" height="552" rx="16" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
-<text x="24" y="36" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#475569">FROM INTERFACE TO DELIVERY</text>
-<rect x="20" y="54" width="400" height="78" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
-<g transform="translate(36 78)">
-<path d="M0 0H26V20H0ZM7 25H19M13 20V25" fill="none" stroke="#1D4ED8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450" viewBox="0 0 1200 450" role="img" aria-labelledby="title desc">
+<title id="title">Engineering stack / Technical domains</title><desc id="desc">Product interfaces: React, React Native, Expo, TypeScript. Backend engineering: Python, Django, Django REST Framework and Celery. Data and delivery: PostgreSQL, MySQL, Redis, Linux, Docker and CI/CD. Technical domains, not a single project architecture or equal proficiency.</desc>
+<rect x="1" y="1" width="1198" height="448" rx="24" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="56" y="58" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#475569">ENGINEERING / TECHNICAL DOMAINS</text>
+<rect x="56" y="91" width="342" height="303" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="80" y="137" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#475569">PRODUCT</text>
+<text x="80" y="180" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#0B1120">Interfaces</text>
+<g transform="translate(329 118) scale(0.85)">
+<path d="M0 0H38V26H0ZM10 35H28M19 26V35" fill="none" stroke="#1D4ED8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text x="82" y="81" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#475569">INTERFACES</text>
-<text x="82" y="111" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#0B1120">React • React Native • Expo</text>
-<path d="M220 133V151M216 147L220 151L224 147" fill="none" stroke="#1D4ED8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="20" y="154" width="400" height="78" rx="10" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="1.5"/>
-<g transform="translate(36 178)">
-<path d="M4 2L0 12L4 22M22 2L26 12L22 22M16 0L10 24" fill="none" stroke="#1D4ED8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M399 247H428" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="429" y="91" width="342" height="303" rx="16" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="2"/>
+<text x="453" y="137" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#475569">BACKEND</text>
+<text x="453" y="180" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#0B1120">Engineering</text>
+<g transform="translate(702 118) scale(0.85)">
+<path d="M10 3L0 18L10 33M28 3L38 18L28 33M23 0L15 36" fill="none" stroke="#1D4ED8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text x="82" y="181" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#475569">APPLICATION / API</text>
-<text x="82" y="211" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#0B1120">Django • DRF • REST APIs</text>
-<path d="M220 233V251M216 247L220 251L224 247" fill="none" stroke="#1D4ED8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="20" y="254" width="400" height="78" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
-<g transform="translate(36 278)">
-<path d="M0 4H20V12H0ZM6 17H26V25H6ZM5 0V4M21 25V29" fill="none" stroke="#1D4ED8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M772 247H801" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="802" y="91" width="342" height="303" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="826" y="137" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#475569">DATA &amp;</text>
+<text x="826" y="180" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#0B1120">Delivery</text>
+<g transform="translate(1075 118) scale(0.85)">
+<path d="M0 6C0 -2 38 -2 38 6V30C38 38 0 38 0 30ZM0 6C0 14 38 14 38 6M0 18C0 26 38 26 38 18" fill="none" stroke="#1D4ED8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text x="82" y="281" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#475569">BUSINESS LOGIC</text>
-<text x="82" y="311" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#0B1120">Services • Celery tasks</text>
-<path d="M220 333V351M216 347L220 351L224 347" fill="none" stroke="#1D4ED8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="20" y="354" width="400" height="78" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
-<g transform="translate(36 378)">
-<path d="M0 5C0 -2 26 -2 26 5V23C26 30 0 30 0 23ZM0 5C0 12 26 12 26 5M0 14C0 21 26 21 26 14" fill="none" stroke="#1D4ED8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<text x="82" y="381" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#475569">DATA</text>
-<text x="82" y="411" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#0B1120">PostgreSQL • MySQL • Redis</text>
-<path d="M220 433V451M216 447L220 451L224 447" fill="none" stroke="#1D4ED8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<rect x="20" y="454" width="400" height="78" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
-<g transform="translate(36 478)">
-<path d="M0 0H26V10H0ZM0 17H26V27H0ZM5 5H8M5 22H8" fill="none" stroke="#1D4ED8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<text x="82" y="481" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#475569">INFRASTRUCTURE</text>
-<text x="82" y="511" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#0B1120">Linux • Docker • Nginx • CI/CD</text>
+<text x="80" y="231" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#0B1120">React</text>
+<text x="80" y="276" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#0B1120">React Native</text>
+<text x="80" y="321" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#0B1120">Expo</text>
+<text x="80" y="366" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#0B1120">TypeScript</text>
+<text x="453" y="231" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#0B1120">Python</text>
+<text x="453" y="276" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#0B1120">Django</text>
+<text x="453" y="321" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#0B1120">Django REST Framework</text>
+<text x="453" y="366" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#0B1120">Celery</text>
+<text x="826" y="237" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#0B1120">PostgreSQL</text>
+<text x="1014" y="237" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#0B1120">MySQL</text>
+<text x="826" y="295" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#0B1120">Redis</text>
+<text x="1014" y="295" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#0B1120">Linux</text>
+<text x="826" y="353" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#0B1120">Docker</text>
+<text x="1014" y="353" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#0B1120">CI/CD</text>
+<text x="56" y="430" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#475569">Also in practice: JavaScript • Vite • Tailwind CSS • Git • Ubuntu • Nginx</text>
 </svg>

@@ -1,30 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
-<title id="title">RochDev — Engineering Ideas Into Reality</title>
-<desc id="desc">An architectural network of connected modules surrounds a geometric R. Software Engineering, Backend Architecture and Digital Products.</desc>
-<defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#182439" stroke-width="0.7"/></pattern></defs>
-<rect width="960" height="360" rx="16" fill="#0B1120"/>
-<rect x="576" y="1" width="383" height="358" rx="16" fill="url(#grid)"/>
-<path d="M40 40H80M40 40V80M920 280V320H880" fill="none" stroke="#334155"/>
-<path d="M40 105V181" stroke="#22D3EE" stroke-width="4"/>
-<g font-family="Arial, Helvetica, sans-serif">
-<text x="60" y="69" fill="#94A3B8" font-size="13" letter-spacing="2">SOFTWARE ENGINEER / BACKEND / BUILDER</text>
-<text x="60" y="166" fill="#F8FAFC" font-size="78" font-weight="700" letter-spacing="-3">ROCHDEV<tspan fill="#22D3EE">.</tspan></text>
-<text x="60" y="211" fill="#F8FAFC" font-size="25">Engineering Ideas Into Reality</text>
-<text x="60" y="278" fill="#B8C5D6" font-size="17">Software Engineering • Backend Architecture</text>
-<text x="60" y="305" fill="#B8C5D6" font-size="17">Digital Products</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+<title id="title">RochDev / Engineering Ideas Into Reality</title><desc id="desc">Software Engineer, Backend Developer, Builder. A geometric R anchors connected software modules.</desc>
+<rect x="1" y="1" width="1198" height="398" rx="24" fill="#0B1120" stroke="#263A56" stroke-width="2"/>
+<text x="56" y="69" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#94A3B8">ROCHDEV / SOFTWARE &amp; DIGITAL PRODUCTS</text>
+<text x="51" y="187" font-family="Arial, Helvetica, sans-serif" font-size="104" font-weight="700" fill="#F8FAFC">ROCHDEV</text>
+<text x="56" y="250" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="400" fill="#F8FAFC">Engineering Ideas Into Reality</text>
+<text x="56" y="326" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#94A3B8">Software Engineer • Backend Developer • Builder</text>
+<path d="M56 365H680" fill="none" stroke="#263A56" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M56 365H168" fill="none" stroke="#22D3EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M770 73H825V166H855M1040 81V116H997M998 218H1104V300H1058M782 310H829V246H855" fill="none" stroke="#263A56" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="748" y="51" width="44" height="44" rx="16" fill="#101C31" stroke="#263A56" stroke-width="2"/>
+<circle cx="770" cy="73" r="4" fill="#22D3EE"/>
+<rect x="1018" y="49" width="44" height="44" rx="16" fill="#101C31" stroke="#263A56" stroke-width="2"/>
+<circle cx="1040" cy="71" r="4" fill="#8B5CF6"/>
+<rect x="1036" y="279" width="44" height="44" rx="16" fill="#101C31" stroke="#263A56" stroke-width="2"/>
+<circle cx="1058" cy="301" r="4" fill="#22D3EE"/>
+<rect x="760" y="288" width="44" height="44" rx="16" fill="#101C31" stroke="#263A56" stroke-width="2"/>
+<circle cx="782" cy="310" r="4" fill="#8B5CF6"/>
+<circle cx="825" cy="166" r="4" fill="#22D3EE"/>
+<circle cx="1104" cy="218" r="4" fill="#22D3EE"/>
+<circle cx="829" cy="246" r="4" fill="#8B5CF6"/>
+<g transform="translate(855 135) scale(1.15)">
+<rect x="0" y="0" width="126" height="126" rx="24" fill="#101C31" stroke="#2563EB" stroke-width="2"/>
+<path d="M35 94V32H65L86 51V65L66 77H35M65 77L89 98" fill="none" stroke="#22D3EE" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<g fill="none" stroke="#304360" stroke-width="1.5">
-<path d="M605 88H659V142H707M840 72V119H812M845 272H866V208H812M588 282H651V218H707"/>
-<path d="M651 218V142M812 142H902M760 231V307" stroke-dasharray="4 7"/>
-<rect x="703" y="114" width="116" height="124" rx="20" fill="#101D32" stroke="#2563EB"/>
-<rect x="715" y="126" width="92" height="100" rx="12" stroke="#233A59"/>
-</g>
-<path d="M738 205V148H764L781 165V178L765 188H738M762 188L783 208" fill="none" stroke="#22D3EE" stroke-width="6" stroke-linejoin="round"/>
-<g fill="#0B1120" stroke="#4F709B" stroke-width="1.5">
-<rect x="584" y="73" width="30" height="30" rx="6"/><rect x="826" y="57" width="30" height="30" rx="6"/>
-<rect x="830" y="257" width="30" height="30" rx="6"/><rect x="572" y="267" width="30" height="30" rx="6"/>
-</g>
-<g fill="#22D3EE"><circle cx="659" cy="142" r="4"/><circle cx="866" cy="208" r="4"/><circle cx="599" cy="88" r="3"/></g>
-<g fill="#8B5CF6"><circle cx="651" cy="218" r="4"/><circle cx="841" cy="72" r="3"/></g>
-<path d="M60 335H480" stroke="#203047"/><path d="M60 335H124" stroke="#22D3EE" stroke-width="2"/>
 </svg>

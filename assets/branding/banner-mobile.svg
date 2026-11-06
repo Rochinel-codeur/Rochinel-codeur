@@ -1,21 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="380" viewBox="0 0 480 380" role="img" aria-labelledby="title desc">
-<title id="title">RochDev — Engineering Ideas Into Reality</title>
-<desc id="desc">Software Engineering, Backend Architecture and Digital Products. A geometric R connects to a system of small modules.</desc>
-<rect width="480" height="380" rx="16" fill="#0B1120"/>
-<path d="M32 32H64M32 32V64M448 316V348H416" fill="none" stroke="#334155"/>
-<g stroke="#304360" stroke-width="1.5" fill="none">
-<path d="M344 54H380V86H410M344 100H380V86M410 86V130H448"/>
-<rect x="302" y="34" width="64" height="76" rx="12" fill="#101D32" stroke="#2563EB"/>
-<rect x="410" y="72" width="28" height="28" rx="5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="320" viewBox="0 0 480 320" role="img" aria-labelledby="title desc">
+<title id="title">RochDev / Engineering Ideas Into Reality</title><desc id="desc">Software Engineer, Backend Developer, Builder. A geometric R anchors connected software modules.</desc>
+<rect x="1" y="1" width="478" height="318" rx="24" fill="#0B1120" stroke="#263A56" stroke-width="2"/>
+<text x="28" y="52" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#F8FAFC">ROCHDEV</text>
+<text x="28" y="96" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#F8FAFC">Engineering Ideas</text>
+<text x="28" y="132" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#F8FAFC">Into Reality</text>
+<text x="28" y="209" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#94A3B8">Software Engineer</text>
+<text x="28" y="246" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#94A3B8">Backend Developer • Builder</text>
+<path d="M28 283H452" fill="none" stroke="#263A56" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28 283H108" fill="none" stroke="#22D3EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(350 51) scale(0.65)">
+<rect x="0" y="0" width="126" height="126" rx="24" fill="#101C31" stroke="#2563EB" stroke-width="2"/>
+<path d="M35 94V32H65L86 51V65L66 77H35M65 77L89 98" fill="none" stroke="#22D3EE" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<path d="M320 92V52H335L348 63V72L336 79H320M334 79L350 94" fill="none" stroke="#22D3EE" stroke-width="3" stroke-linejoin="round"/>
-<circle cx="380" cy="86" r="3" fill="#8B5CF6"/>
-<g font-family="Arial, Helvetica, sans-serif">
-<text x="32" y="142" fill="#94A3B8" font-size="16" letter-spacing="2">ENGINEER / BUILDER</text>
-<text x="32" y="206" fill="#F8FAFC" font-size="62" font-weight="700" letter-spacing="-3">ROCHDEV<tspan fill="#22D3EE">.</tspan></text>
-<text x="32" y="247" fill="#F8FAFC" font-size="24">Engineering Ideas Into Reality</text>
-<text x="32" y="298" fill="#B8C5D6" font-size="18">Software Engineering</text>
-<text x="32" y="326" fill="#B8C5D6" font-size="18">Backend Architecture • Digital Products</text>
-</g>
-<path d="M32 351H320" stroke="#203047"/><path d="M32 351H96" stroke="#22D3EE" stroke-width="2"/>
 </svg>

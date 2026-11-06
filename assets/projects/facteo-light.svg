@@ -1,30 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="680" height="260" viewBox="0 0 680 260" role="img" aria-labelledby="title desc">
-<title id="title">Facteo / Business operations</title><desc id="desc">Concept illustration, not a screenshot: billing records, financial indicators and customer management.</desc>
-<rect x="1" y="1" width="678" height="258" rx="16" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
-<text x="28" y="37" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#475569">01 / BUSINESS OPERATIONS</text>
-<rect x="28" y="58" width="410" height="174" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
-<path d="M28 94H438" fill="none" stroke="#CBD5E1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="47" cy="76" r="3" fill="#1D4ED8"/>
-<circle cx="59" cy="76" r="3" fill="#CBD5E1"/>
-<circle cx="71" cy="76" r="3" fill="#CBD5E1"/>
-<rect x="46" y="111" width="110" height="45" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
-<rect x="167" y="111" width="110" height="45" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
-<path d="M60 139H79V124H89V139H111V120H126" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M182 139L199 128L215 133L238 119L259 123" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M47 177H197" fill="none" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="400" cy="177" r="3" fill="#1D4ED8"/>
-<path d="M47 195H245" fill="none" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="400" cy="195" r="3" fill="#1D4ED8"/>
-<path d="M47 213H173" fill="none" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="400" cy="213" r="3" fill="#1D4ED8"/>
-<rect x="461" y="58" width="191" height="174" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
-<path d="M484 126V79H586L607 100V126M586 79V100H607" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M495 103H551M495 116H570" fill="none" stroke="#CBD5E1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="490" cy="161" r="7" fill="#475569"/>
-<path d="M479 188V183Q490 169 501 183V188" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="526" cy="161" r="7" fill="#475569"/>
-<path d="M515 188V183Q526 169 537 183V188" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="562" cy="161" r="7" fill="#475569"/>
-<path d="M551 188V183Q562 169 573 183V188" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="484" y="216" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#475569">CLIENTS / INVOICES</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">Facteo / Business invoicing</title><desc id="desc">Original conceptual product illustration, not a screenshot. No real financial figures are depicted.</desc>
+<rect x="1" y="1" width="1198" height="418" rx="24" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="56" y="64" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#475569">01 / BUSINESS SOFTWARE</text>
+<text x="56" y="143" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" fill="#0B1120">Facteo</text>
+<text x="56" y="201" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#0B1120">Invoicing, without the scatter.</text>
+<text x="56" y="241" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#0B1120">Clients, suppliers and documents.</text>
+<text x="56" y="296" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#475569">Django / DRF • React</text>
+<text x="56" y="329" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#475569">TypeScript • Tailwind CSS</text>
+<text x="56" y="382" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#1D4ED8">View public repository →</text>
+<g transform="translate(604 68)">
+<rect x="0" y="0" width="540" height="278" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="24" y="39" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#475569">BILLING / CONCEPT</text>
+<path d="M0 60H540" fill="none" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(28 83) scale(1.2)">
+<path d="M2 32V18H9V32M15 32V8H22V32M28 32V0H35V32" fill="none" stroke="#1D4ED8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path d="M102 98H230M102 123H188" fill="none" stroke="#475569" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26 172H280" fill="none" stroke="#CBD5E1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="334" cy="172" r="5" fill="#1D4ED8"/>
+<path d="M26 209H280" fill="none" stroke="#CBD5E1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="334" cy="209" r="5" fill="#1D4ED8"/>
+<path d="M26 246H280" fill="none" stroke="#CBD5E1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="334" cy="246" r="5" fill="#1D4ED8"/>
+<rect x="374" y="84" width="140" height="168" rx="16" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<path d="M399 198V111H464L489 136V198M464 111V136H489" fill="none" stroke="#1D4ED8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M412 157H469M412 177H459" fill="none" stroke="#475569" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="70" cy="300" r="9" fill="#475569"/>
+<circle cx="110" cy="300" r="9" fill="#475569"/>
+<circle cx="150" cy="300" r="9" fill="#475569"/>
+<text x="186" y="309" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#475569">CLIENTS / DOCUMENTS</text>
+</g>
 </svg>
