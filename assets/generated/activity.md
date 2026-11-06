@@ -7,8 +7,8 @@ Updated **2026-11-06 UTC** from the GitHub REST API.
 
 | Primary language | Repositories |
 | --- | ---: |
-| Not classified | 5 |
-| Python | 3 |
+| Not classified | 4 |
+| Python | 4 |
 | HTML | 1 |
 | Java | 1 |
 | JavaScript | 1 |
