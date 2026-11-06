@@ -5,89 +5,95 @@
 
 # Hi, I'm RochDev.
 
-**Software Engineer · Backend & Full-Stack Developer**
+**Software Engineer • Backend Developer • Builder**<br>
+Rochinel Lontchi · Based in Cameroon 🇨🇲
 
-Building reliable systems and meaningful digital products. Based in Cameroon 🇨🇲
+Building reliable systems and meaningful digital products.
 
-[Selected work](#selected-work) · [Technical expertise](#technical-expertise) · [Let's build](#lets-build)
+## About Me
 
-## About me
+I build software around real business needs, with a focus on backend engineering and experience across web and mobile.
+I care about clear APIs, reliable business rules and systems that stay understandable as they grow.
+I'm developing my architecture and infrastructure practice, with an entrepreneurial interest in useful digital products.
 
-I'm **Rochinel Lontchi**, a developer drawn to the work behind the interface: how data moves, how business rules hold up, and how a system stays understandable as it grows.
+## Featured Projects
 
-My focus is backend engineering, with hands-on work across web and mobile development. I like taking a real operational problem and building the pieces that make a useful product. I'm growing toward software architecture and infrastructure, with an entrepreneurial interest in tools that help businesses in Cameroon and beyond.
+<a href="https://github.com/Rochinel-codeur/Facteo">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/facteo-dark.svg">
+    <img src="assets/projects/facteo-light.svg" alt="Facteo concept illustration: invoices, customer records and a financial dashboard. Not a product screenshot." width="680">
+  </picture>
+</a>
 
-**Software engineer. Builder. Problem solver. Aspiring tech entrepreneur.**
+### Facteo / Business invoicing
 
-## Selected work
+Manage sales and purchase invoices, customers and suppliers in one place.<br>
+Server-calculated totals, yearly numbering and document exports support the billing workflow.
 
-### 01 / Facteo
+`Django / DRF` `React` `TypeScript` `Tailwind CSS`
 
-**A clearer workflow for business invoicing.**
+[View repository →](https://github.com/Rochinel-codeur/Facteo) · [Architecture](https://github.com/Rochinel-codeur/Facteo/blob/main/docs/ARCHITECTURE.md)
 
-A web application that brings sales and purchase invoices, customers and suppliers into one place. The public implementation includes server-side amount calculations, invoice numbering by type and year, and PDF, Excel and Word exports.
+<a href="https://github.com/Rochinel-codeur/QuizLy">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/quizly-dark.svg">
+    <img src="assets/projects/quizly-light.svg" alt="QuizLy concept illustration: connected question generation, evaluation and explanation steps. Not a product screenshot." width="680">
+  </picture>
+</a>
 
-`Python` `Django REST Framework` `React` `TypeScript` `Tailwind CSS`
+### QuizLy / AI learning experiment
 
-[Explore the code](https://github.com/Rochinel-codeur/Facteo) · [Architecture notes](https://github.com/Rochinel-codeur/Facteo/blob/main/docs/ARCHITECTURE.md)
+Generate science questions and receive explanations through a graph-based learning workflow.<br>
+An experimental project connecting AI integration with a practical quiz interface.
 
-### 02 / QuizLy
+`Python` `FastAPI` `LangGraph` `LangChain`
 
-**Exploring AI as a learning companion.**
+[View repository →](https://github.com/Rochinel-codeur/QuizLy)
 
-An experimental science quiz application that generates questions and explains answers. A graph-based workflow connects generation, evaluation and feedback: a practical space for learning how to integrate AI into a product.
+<sub>Concept illustrations of public projects. Live deployments and production readiness remain unverified.</sub>
 
-`Python` `FastAPI` `LangGraph` `LangChain` `JavaScript`
+## Engineering Stack
 
-[Explore the code](https://github.com/Rochinel-codeur/QuizLy)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/branding/stack-dark.svg">
+  <img src="assets/branding/stack-light.svg" alt="Technical domains: interfaces with React, React Native and Expo; Django, DRF and REST APIs; services and Celery background tasks; PostgreSQL, MySQL and Redis; Linux, Docker, Nginx and CI/CD. A domain map, not a project architecture or proficiency ranking." width="440">
+</picture>
 
-<sub>Selected from public repositories. These are code showcases; production readiness and live deployments have not been verified.</sub>
+Working toolkit: Python, JavaScript / TypeScript, Vite, Tailwind CSS and Git.<br>
+My backend practice is strongest; infrastructure and architecture remain active learning areas.<br>
+**Developing further:** system design, UML, Docker & CI/CD, cloud infrastructure, distributed systems and AI integration.
 
-## Technical expertise
+## Engineering Approach
 
-My working toolkit, organized by where it fits in a product. Architecture and infrastructure are areas I'm deliberately developing further.
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/branding/approach-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/branding/approach-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/branding/approach-dark.svg">
+  <img src="assets/branding/approach-light.svg" alt="Problem → Analysis → Architecture → Implementation → Testing → Deployment." width="100%">
+</picture>
 
-<img src="assets/branding/engineering-map.svg" alt="My engineering focus connects interfaces, backend services and data, supported by delivery tooling." width="560">
+Understand the problem, make deliberate design choices, and verify the solution before delivery.
 
-- **Backend** — Python, Django, Django REST Framework, Celery, REST APIs.
-- **Frontend** — React, JavaScript, TypeScript, Vite, Tailwind CSS.
-- **Mobile** — React Native, Expo.
-- **Data** — PostgreSQL, MySQL, Redis.
-- **Delivery foundations** — Linux / Ubuntu, Git; building depth with Docker, GitHub Actions, Nginx and CI/CD.
-- **Design practice** — UML and API design; progressing in software architecture and system design.
-
-## How I build
-
-> Understand the problem. Make the boundaries clear. Build something people can depend on—and the next developer can understand.
-
-## Currently exploring
-
-I'm deepening my backend engineering and software architecture practice, then connecting it to **Docker & CI/CD**, **cloud infrastructure** and **DevOps**. Alongside that, I'm studying distributed systems and experimenting with AI integration.
-
-## Public GitHub activity
+## GitHub Activity
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/generated/activity-dark.svg">
-  <img src="assets/generated/activity-light.svg" alt="Public repository snapshot: original repositories and their primary languages. Exact counts and update date are available in the linked text snapshot." width="480">
+  <img src="assets/generated/activity-light.svg" alt="Dated counts of original public repositories and their primary languages; forks excluded. Full definitions and counts are linked below." width="440">
 </picture>
 
-[Read the dated snapshot](assets/generated/activity.md) · [Browse all repositories](https://github.com/Rochinel-codeur?tab=repositories)
+[Snapshot & definitions](assets/generated/activity.md) · [All repositories](https://github.com/Rochinel-codeur?tab=repositories)
 
 <picture>
   <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/generated/contributions-dark.svg">
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/generated/contributions-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/generated/snake-dark.svg">
-  <img src="assets/generated/snake-light.svg" alt="A snake travels through my GitHub contribution calendar. A static calendar is shown when reduced motion is preferred." width="100%">
+  <img src="assets/generated/snake-light.svg" alt="Animated GitHub contribution calendar, with a static version for reduced motion." width="100%">
 </picture>
 
-<sub>A contribution calendar, not a measure of engineering quality. Images refresh daily through GitHub Actions; the last successful snapshot stays available.</sub>
+<sub>Daily refresh · Last successful images retained · Static calendar available with reduced motion.</sub>
 
-## Let's build
+## Connect
 
-Interested in a useful business tool, a thoughtful API, or a web or mobile product? I'd welcome a conversation about the problem you're solving.
+Have a business tool, API or digital product in mind? Let's discuss the problem.
 
-[Email me](mailto:lontchirochinel@gmail.com) · [Find me on GitHub](https://github.com/Rochinel-codeur)
-
----
-
-<sub>RochDev · Engineering Ideas Into Reality · Built in Cameroon.</sub>
+[Email](mailto:lontchirochinel@gmail.com) · [GitHub](https://github.com/Rochinel-codeur)

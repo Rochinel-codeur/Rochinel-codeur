@@ -27,6 +27,11 @@ class Images(HTMLParser):
 
 def validate():
     readme = (ROOT / "README.md").read_text()
+    sections = re.findall(r"^#{1,2} (.+)$", readme, re.MULTILINE)
+    assert len(sections) == 7 and sections[1:] == [
+        "About Me", "Featured Projects", "Engineering Stack",
+        "Engineering Approach", "GitHub Activity", "Connect",
+    ], "The profile must keep its seven-section editorial structure"
     images = Images()
     images.feed(readme)
     assert len(images.paths) >= 8, "Expected themed and reduced-motion image sources"

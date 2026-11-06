@@ -75,33 +75,33 @@ def render_svg(snapshot, dark):
         ("#F8FAFC", "#0B1120", "#475569", "#CBD5E1", "#E2E8F0", "#2563EB")
     )
     rows = snapshot["language_counts"]
-    height = 236 + max(1, len(rows)) * 36
+    height = 230 + max(1, len(rows)) * 28
     title = f'{snapshot["repositories"]} original public repositories; {snapshot["primary_languages"]} primary languages'
     result = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="480" height="{height}" viewBox="0 0 480 {height}" role="img" aria-labelledby="title desc">',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="440" height="{height}" viewBox="0 0 440 {height}" role="img" aria-labelledby="title desc">',
         f'<title id="title">{escape(title)}</title>',
         f'<desc id="desc">Updated {snapshot["updated"]}. Counts of repositories by primary language, not skill levels or code volume. Forks excluded.</desc>',
-        f'<rect x="0.5" y="0.5" width="479" height="{height-1}" rx="12" fill="{background}" stroke="{border}"/>',
+        f'<rect x="0.5" y="0.5" width="439" height="{height-1}" rx="12" fill="{background}" stroke="{border}"/>',
         f'<g font-family="Arial, Helvetica, sans-serif" fill="{foreground}">',
-        f'<text x="24" y="36" font-size="18" font-weight="700">PUBLIC / REPOSITORY SNAPSHOT</text>',
+        f'<text x="24" y="36" font-size="20" font-weight="700">PUBLIC CODE / AT A GLANCE</text>',
         f'<text x="24" y="95" font-size="40" font-weight="700">{snapshot["repositories"]}</text>',
-        f'<text x="254" y="95" font-size="40" font-weight="700">{snapshot["primary_languages"]}</text>',
-        f'<g fill="{muted}" font-size="18"><text x="24" y="123">Original repositories</text><text x="254" y="123">Primary languages</text></g>',
-        f'<path d="M24 145H456" stroke="{border}"/>',
-        f'<text x="24" y="177" font-size="18">Repositories by primary language</text>',
+        f'<text x="234" y="95" font-size="40" font-weight="700">{snapshot["primary_languages"]}</text>',
+        f'<g fill="{muted}" font-size="20"><text x="24" y="123">Original public repos</text><text x="234" y="123">Primary languages</text></g>',
+        f'<path d="M24 145H416" stroke="{border}"/>',
+        f'<text x="24" y="177" font-size="20">Repositories by primary language</text>',
     ]
     maximum = max(rows.values(), default=1)
     for index, (language, count) in enumerate(rows.items()):
-        y = 210 + index * 36
+        y = 206 + index * 28
         result.extend([
-            f'<text x="24" y="{y}" font-size="18">{escape(language)}</text>',
-            f'<rect x="208" y="{y-13}" width="198" height="10" rx="5" fill="{track}"/>',
-            f'<rect x="208" y="{y-13}" width="{198*count/maximum:.2f}" height="10" rx="5" fill="{accent}"/>',
-            f'<text x="452" y="{y}" font-size="18" text-anchor="end">{count}</text>',
+            f'<text x="24" y="{y}" font-size="20">{escape(language)}</text>',
+            f'<rect x="190" y="{y-13}" width="178" height="10" rx="5" fill="{track}"/>',
+            f'<rect x="190" y="{y-13}" width="{178*count/maximum:.2f}" height="10" rx="5" fill="{accent}"/>',
+            f'<text x="412" y="{y}" font-size="20" text-anchor="end">{count}</text>',
         ])
     if not rows:
-        result.append(f'<text x="24" y="210" fill="{muted}" font-size="18">No public repositories yet.</text>')
-    result.append(f'<text x="24" y="{height-22}" fill="{muted}" font-size="17">Updated {snapshot["updated"]} UTC · Forks excluded</text></g></svg>')
+        result.append(f'<text x="24" y="210" fill="{muted}" font-size="20">No public repositories yet.</text>')
+    result.append(f'<text x="24" y="{height-22}" fill="{muted}" font-size="18">{snapshot["updated"]} UTC · Forks excluded</text></g></svg>')
     return "\n".join(result) + "\n"
 
 

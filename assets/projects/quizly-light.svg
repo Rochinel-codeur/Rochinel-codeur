@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="260" viewBox="0 0 680 260" role="img" aria-labelledby="title desc">
+<title id="title">QuizLy / Learning loop</title><desc id="desc">Concept illustration, not a screenshot: a question card connects to generation, evaluation and explanation modules.</desc>
+<rect x="1" y="1" width="678" height="258" rx="16" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="28" y="37" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#475569">02 / LEARNING SYSTEMS</text>
+<rect x="28" y="58" width="245" height="174" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="48" y="99" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#1D4ED8">?</text>
+<path d="M88 82H245M88 98H210" fill="none" stroke="#CBD5E1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="48" y="126" width="20" height="20" rx="5" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+<path d="M84 136H240" fill="none" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="48" y="158" width="20" height="20" rx="5" fill="#F8FAFC" stroke="#1D4ED8" stroke-width="1.5"/>
+<path d="M84 168H200" fill="none" stroke="#1D4ED8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="48" y="190" width="20" height="20" rx="5" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+<path d="M84 200H224" fill="none" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M273 145H317V86H350M317 145H350M317 145V204H350" fill="none" stroke="#1D4ED8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="350" y="62" width="240" height="48" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="366" y="92" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1D4ED8">01</text>
+<text x="408" y="93" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0B1120">GENERATE</text>
+<rect x="350" y="121" width="240" height="48" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="366" y="151" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1D4ED8">02</text>
+<text x="408" y="152" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0B1120">EVALUATE</text>
+<rect x="350" y="180" width="240" height="48" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="366" y="210" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1D4ED8">03</text>
+<text x="408" y="211" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0B1120">EXPLAIN</text>
+<path d="M590 86H625V204H590" fill="none" stroke="#CBD5E1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="317" cy="145" r="4" fill="#1D4ED8"/>
+<circle cx="625" cy="145" r="4" fill="#8B5CF6"/>
+</svg>

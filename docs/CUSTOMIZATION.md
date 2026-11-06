@@ -25,6 +25,14 @@ To refresh the snake images locally, manually trigger the workflow. Its pinned P
 
 ## Art direction and scope
 
+V2 uses exactly seven principal sections, with vertically stacked project cards so the images and descriptions remain readable on phones. Project SVGs are original concept illustrations, not screenshots. To rebuild their themed variants and the engineering diagrams after editing their source:
+
+```sh
+python3 scripts/build_editorial_assets.py
+```
+
+That script writes only the ten editorial SVGs; it does not touch contribution data or branding banners. The former `engineering-map.svg` is retained as a V1 asset and is no longer displayed. The approach uses a horizontal diagram on large screens and a dedicated vertical version below 600 px. The stack is a technical domain map, with the README distinguishing working experience from continued learning.
+
 The palette uses midnight navy, cyan and electric blue, with violet as a small connection detail. The desktop banner and separate 480 px mobile banner share the same geometric monogram. `engineering-map.svg` expresses product relationships rather than skill rankings. Statistics show primary-language **repository counts**, not lines of code, all languages, contribution totals or proficiency. The animated snake is paired with genuinely static calendars for `prefers-reduced-motion`.
 
 ## Validation

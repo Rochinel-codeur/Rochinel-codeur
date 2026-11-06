@@ -12,7 +12,7 @@
 <circle cx="380" cy="86" r="3" fill="#8B5CF6"/>
 <g font-family="Arial, Helvetica, sans-serif">
 <text x="32" y="142" fill="#94A3B8" font-size="16" letter-spacing="2">ENGINEER / BUILDER</text>
-<text x="28" y="206" fill="#F8FAFC" font-size="64" font-weight="700" letter-spacing="-3">ROCHDEV<tspan fill="#22D3EE">.</tspan></text>
+<text x="32" y="206" fill="#F8FAFC" font-size="62" font-weight="700" letter-spacing="-3">ROCHDEV<tspan fill="#22D3EE">.</tspan></text>
 <text x="32" y="247" fill="#F8FAFC" font-size="24">Engineering Ideas Into Reality</text>
 <text x="32" y="298" fill="#B8C5D6" font-size="18">Software Engineering</text>
 <text x="32" y="326" fill="#B8C5D6" font-size="18">Backend Architecture • Digital Products</text>

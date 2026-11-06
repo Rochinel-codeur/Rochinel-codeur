@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="260" viewBox="0 0 680 260" role="img" aria-labelledby="title desc">
+<title id="title">Facteo / Business operations</title><desc id="desc">Concept illustration, not a screenshot: billing records, financial indicators and customer management.</desc>
+<rect x="1" y="1" width="678" height="258" rx="16" fill="#0B1120" stroke="#263B55" stroke-width="1.5"/>
+<text x="28" y="37" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#B8C5D6">01 / BUSINESS OPERATIONS</text>
+<rect x="28" y="58" width="410" height="174" rx="10" fill="#101D32" stroke="#263B55" stroke-width="1.5"/>
+<path d="M28 94H438" fill="none" stroke="#263B55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="47" cy="76" r="3" fill="#22D3EE"/>
+<circle cx="59" cy="76" r="3" fill="#263B55"/>
+<circle cx="71" cy="76" r="3" fill="#263B55"/>
+<rect x="46" y="111" width="110" height="45" rx="10" fill="#0B1120" stroke="#263B55" stroke-width="1.5"/>
+<rect x="167" y="111" width="110" height="45" rx="10" fill="#0B1120" stroke="#263B55" stroke-width="1.5"/>
+<path d="M60 139H79V124H89V139H111V120H126" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M182 139L199 128L215 133L238 119L259 123" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M47 177H197" fill="none" stroke="#263B55" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="400" cy="177" r="3" fill="#22D3EE"/>
+<path d="M47 195H245" fill="none" stroke="#263B55" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="400" cy="195" r="3" fill="#22D3EE"/>
+<path d="M47 213H173" fill="none" stroke="#263B55" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="400" cy="213" r="3" fill="#22D3EE"/>
+<rect x="461" y="58" width="191" height="174" rx="10" fill="#101D32" stroke="#263B55" stroke-width="1.5"/>
+<path d="M484 126V79H586L607 100V126M586 79V100H607" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M495 103H551M495 116H570" fill="none" stroke="#263B55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="490" cy="161" r="7" fill="#B8C5D6"/>
+<path d="M479 188V183Q490 169 501 183V188" fill="none" stroke="#B8C5D6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="526" cy="161" r="7" fill="#B8C5D6"/>
+<path d="M515 188V183Q526 169 537 183V188" fill="none" stroke="#B8C5D6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="562" cy="161" r="7" fill="#B8C5D6"/>
+<path d="M551 188V183Q562 169 573 183V188" fill="none" stroke="#B8C5D6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="484" y="216" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#B8C5D6">CLIENTS / INVOICES</text>
+</svg>

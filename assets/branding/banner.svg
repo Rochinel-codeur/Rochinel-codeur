@@ -7,8 +7,8 @@
 <path d="M40 40H80M40 40V80M920 280V320H880" fill="none" stroke="#334155"/>
 <path d="M40 105V181" stroke="#22D3EE" stroke-width="4"/>
 <g font-family="Arial, Helvetica, sans-serif">
-<text x="60" y="69" fill="#94A3B8" font-size="13" letter-spacing="3">SOFTWARE ENGINEER / BUILDER</text>
-<text x="56" y="166" fill="#F8FAFC" font-size="80" font-weight="700" letter-spacing="-3">ROCHDEV<tspan fill="#22D3EE">.</tspan></text>
+<text x="60" y="69" fill="#94A3B8" font-size="13" letter-spacing="2">SOFTWARE ENGINEER / BACKEND / BUILDER</text>
+<text x="60" y="166" fill="#F8FAFC" font-size="78" font-weight="700" letter-spacing="-3">ROCHDEV<tspan fill="#22D3EE">.</tspan></text>
 <text x="60" y="211" fill="#F8FAFC" font-size="25">Engineering Ideas Into Reality</text>
 <text x="60" y="278" fill="#B8C5D6" font-size="17">Software Engineering • Backend Architecture</text>
 <text x="60" y="305" fill="#B8C5D6" font-size="17">Digital Products</text>
